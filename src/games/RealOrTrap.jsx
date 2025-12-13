@@ -80,7 +80,7 @@ const RealOrTrap = () => {
             } else {
                 setIsGameOver(true);
             }
-        }, 5000);
+        }, 7000);
     };
 
     const handleReset = () => {
