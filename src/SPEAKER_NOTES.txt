@@ -1,0 +1,82 @@
+HUMAN FIREWALL - SPEAKER NOTES & CHEAT SHEET
+==============================================
+
+MODULE 01: THE HUMAN FACTOR
+----------------------------------------------
+Topic: Why Humans are the Weakest Link
+REAL-TIME EXAMPLE:
+In 2023, MGM Resorts was hacked not by code, but by a 10-minute phone call. Hackers found an employee's info on LinkedIn, called the Help Desk pretending to be them, and reset the MFA. Cost: $100 Million.
+SOLUTION:
+"Trust but Verify." Technology cannot stop someone from giving away their keys. You are the operating system's final defense.
+
+MODULE 02: PHISHING, SMISHING & VISHING
+----------------------------------------------
+Topic: Deceptive Communications
+REAL-TIME EXAMPLE:
+Employees receive an email from "HR-Update" with the subject "Urgent: Q4 Bonus Validation". The link goes to "paramgroups-hr-portal.web.app" instead of the official site.
+SOLUTION:
+The "Hover Test". Hover your mouse over the link without clicking. If the real URL doesn't match the sender's claim, report it. "Urgency" is the biggest red flag.
+
+MODULE 03: SOCIAL ENGINEERING
+----------------------------------------------
+Topic: Manipulation Tactics
+REAL-TIME EXAMPLE:
+"Deepfake CEO Voice". A finance manager receives a call that sounds exactly like the CFO, asking for an urgent wire transfer for a "secret acquisition".
+SOLUTION:
+Establish a "Code Word" or callback procedure. If a request involves money or data, hang up and call the person back on their official internal number.
+
+MODULE 04: PASSWORDS & AUTHENTICATION
+----------------------------------------------
+Topic: Credential Security
+REAL-TIME EXAMPLE:
+An admin uses the password "Admin123!" for 5 different shared accounts. One gets breached on a third-party site; hackers use "Credential Stuffing" to unlock everything else.
+SOLUTION:
+Use Passphrases, not Passwords. "Correct-Horse-Battery-Staple" (4 random words) takes centuries to crack, while "Tr0ub4dor&3" takes days. Enable MFA everywhere.
+
+MODULE 05: FAKE WEBSITES & QR CODES
+----------------------------------------------
+Topic: Spoofing & Quishing
+REAL-TIME EXAMPLE:
+A user searches for "TeamViewer" on Google. The top ad is a fake site "teamveiwer.com" (misspelled 'i' and 'e'). They download malware thinking it's IT support tools.
+SOLUTION:
+Check the URL bar carefully. Look for typos (Typosquatting). For QR codes (e.g., parking meters), ensure it hasn't been pasted OVER the original one.
+
+MODULE 06: PUBLIC WI-FI & HYGIENE
+----------------------------------------------
+Topic: Network Security
+REAL-TIME EXAMPLE:
+At the airport, you see "Free_Airport_WiFi_5G". It connects without a password. A hacker nearby is running this hotspot (Evil Twin) and capturing your login cookies.
+SOLUTION:
+Never do banking or corporate work on open public Wi-Fi. Use your phone's 4G/5G Hotspot or turn on a VPN (Virtual Private Network) immediately.
+
+MODULE 07: MALWARE & RANSOMWARE
+----------------------------------------------
+Topic: Malicious Software
+REAL-TIME EXAMPLE:
+An employee receives an "Invoice_9922.zip" file. Inside is a double-extension file "Invoice.pdf.exe". They click it, and the screen turns red: "All files encrypted. Pay 5 BTC."
+SOLUTION:
+If you didn't request it, don't open it. Default to "View Preview" in email clients rather than downloading. Never enable "Macros" for downloaded Word/Excel files.
+
+MODULE 08: DATA PRIVACY & GDPR
+----------------------------------------------
+Topic: Data Protection
+REAL-TIME EXAMPLE:
+An employee takes a "First Day at Work" selfie with their badge visible and their monitor in the background showing customer emails. They post it on LinkedIn.
+SOLUTION:
+Clean Desk & Clean Screen. Data minimization means sharing only what is necessary. That selfie just gave hackers your ID format and live customer data.
+
+MODULE 09: PHYSICAL SECURITY
+----------------------------------------------
+Topic: Access Control
+REAL-TIME EXAMPLE:
+" The Pizza Delivery". An attacker holds 5 pizzas and struggles at the secure door. A polite employee badges in and holds the door open for them (Tailgating). The attacker now has building access.
+SOLUTION:
+It's not rude, it's safe. Escort visitors to the reception yourself or ask them to badge in. "One Swipe, One Entry."
+
+MODULE 10: INCIDENT REPORTING
+----------------------------------------------
+Topic: Insider Threats & Reporting
+REAL-TIME EXAMPLE:
+A developer who just gave notice is seen downloading 50GB of source code to a personal Google Drive at 11 PM on a Sunday.
+SOLUTION:
+"See Something, Say Something." Security teams rely on human eyes for context. Reporting weird behavior early (Insider Threat) saves the company. No repercussions for false alarms, only for silence.
