@@ -1,16 +1,42 @@
-# React + Vite
+# Human Firewall - Cybersecurity Awareness Training
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A gamified, interactive cybersecurity seminar website built with React, Vite, and TailwindCSS.
 
-Currently, two official plugins are available:
+## 🎮 Modules & Games
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **The Human Factor** - Intro
+2. **Phishing & Vishing** - Game: *Phish or Real?*
+3. **Social Engineering** - Game: *Spot the Red Flag*
+4. **Passwords** - Game: *Crack It*
+5. **Fake Websites** - Game: *Real or Trap?*
+6. **Public Wi-Fi** - Game: *Safe or Unsafe?*
+7. **Malware** - Game: *Data Defender*
+8. **Data Privacy** - Game: *Privacy Pro*
+9. **Physical Security** - Game: *Access Control*
+10. **Incident Reporting** - Game: *Insider Threat Detector*
 
-## React Compiler
+## 🚀 Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Interactive Games**: 10 unique mini-games to reinforce learning.
+- **Round-Robin Feedback**: Humorous GIFs that rotate to keep things fresh.
+- **Responsive Design**: Works on Desktop and Tablets.
+- **Confetti & Rewards**: Visual feedback for winning.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework**: React + Vite
+- **Styling**: TailwindCSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Effects**: Canvas Confetti
+
+## 📦 Installation
+
+```bash
+npm install
+npm run dev
+```
+
+## 📝 Usage
+
+Navigate through the 10 topics using the Dashboard. Play games, learn concepts, and become a Human Firewall!
