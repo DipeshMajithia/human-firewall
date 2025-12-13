@@ -85,7 +85,7 @@ const SafeOrUnsafe = () => {
             } else {
                 setIsGameOver(true);
             }
-        }, 5000);
+        }, 8000);
     };
 
     const handleReset = () => {

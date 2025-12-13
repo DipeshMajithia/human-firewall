@@ -75,7 +75,7 @@ const DataDefender = () => {
             if (scannedFiles.length + 1 === files.length) {
                 setIsGameOver(true);
             }
-        }, 3000);
+        }, 8000);
     };
 
     const handleReset = () => {
