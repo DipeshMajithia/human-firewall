@@ -81,7 +81,7 @@ const PhishOrReal = () => {
             setFeedback({ type: 'error', message: "Wrong! " + currentEmail.reason, gif: gif });
         }
 
-        // Wait 5 seconds (5000ms) for user to read feedback
+        // Wait 7 seconds (7000ms) for user to read feedback
         setTimeout(() => {
             setFeedback(null);
             if (index < emails.length - 1) {
@@ -89,7 +89,7 @@ const PhishOrReal = () => {
             } else {
                 setIsGameOver(true);
             }
-        }, 5000);
+        }, 7000);
     };
 
     const handleReset = () => {
